@@ -1,0 +1,27 @@
+# Ignore datasets
+*.csv
+data/
+datasets/
+
+# Ignore model files
+*.pkl
+model/
+models/
+*.joblib
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore application local data
+*.json
+
+# Ignore temp/debug files
+*.tmp
+*.log
+
+# Ignore environment
+venv/
+env/
+
+# Keep only required images
+images/
