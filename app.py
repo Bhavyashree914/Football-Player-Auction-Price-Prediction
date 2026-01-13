@@ -7,7 +7,6 @@ import pickle
 # ------------------------------
 with open("auction_model.pkl", "rb") as f:
     model = pickle.load(f)
-
 # ------------------------------
 # App Layout
 # ------------------------------
